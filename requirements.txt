@@ -1,0 +1,23 @@
+# PyTorch with CUDA (install separately via:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+# )
+
+# Core ML dependencies
+pandas
+numpy
+librosa
+soundfile
+tqdm
+
+# Training utilities
+tensorboard
+
+# Evaluation
+matplotlib
+scikit-learn
+
+# Backend API server
+fastapi
+uvicorn[standard]
+python-multipart
+pillow
