@@ -104,6 +104,7 @@ The script will:
 
 **Terminal 1 — Backend:**
 ```bash
+# .\.venv\Scripts\python.exe main.py
 python main.py
 # API available at http://localhost:8000
 # Swagger docs at http://localhost:8000/docs

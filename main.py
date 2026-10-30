@@ -119,7 +119,7 @@ def get_model():
     _processor = AudioProcessor(_device)
 
     gpu_info = torch.cuda.get_device_name(0) if _device.type == 'cuda' else 'CPU'
-    print(f"✓ Model loaded on {gpu_info}")
+    print(f"[OK] Model loaded on {gpu_info}")
     print(f"  Classes: {len(_classes)}, Epoch: {checkpoint.get('epoch', '?')}, Accuracy: {checkpoint.get('accuracy', '?'):.2f}%")
 
     return _model, _classes, _device, _processor

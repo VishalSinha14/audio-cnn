@@ -66,7 +66,7 @@ def load_model(device):
     model.to(device)
     model.eval()
 
-    print(f"✓ Model loaded (epoch {epoch}, val accuracy: {accuracy:.2f}%)")
+    print(f"[OK] Model loaded (epoch {epoch}, val accuracy: {accuracy:.2f}%)")
     print(f"  Classes: {len(classes)}")
     return model, classes
 
